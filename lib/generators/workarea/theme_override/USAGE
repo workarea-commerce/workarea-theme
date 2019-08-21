@@ -1,0 +1,8 @@
+Options:
+  NONE
+
+Description:
+  Generates overrides of all Workarea front-end files for theming
+
+Examples:
+  bin/rails g workarea:theme_override

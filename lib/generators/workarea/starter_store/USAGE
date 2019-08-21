@@ -1,0 +1,13 @@
+Description:
+  Imports a theme in to your host application to kick-start development.
+  You must have a single workarea theme installed in your host application.
+
+Examples:
+  rails g workarea:starter_store
+
+  This will create all app, config, and test files from your theme in your host
+  application.
+
+  It will also import all of the dependencies from the theme's gemspec in to
+  your host application's Gemfile. The theme will be commented out in the
+  Gemfile as it is no longer needed.
