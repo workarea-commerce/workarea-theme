@@ -7,8 +7,8 @@ require 'workarea/theme/version'
 Gem::Specification.new do |s|
   s.name        = 'workarea-theme'
   s.version     = Workarea::Theme::VERSION
-  s.authors     = ['Jake Beresford']
-  s.email       = ['jberesford@workarea.com']
+  s.authors     = ['Curt Howard']
+  s.email       = ['choward@workarea.com']
   s.homepage    = 'https://github.com/workarea-commerce/workarea-theme'
   s.summary     = 'Theme tooling for Workarea Commerce Platform'
   s.description = 'Tools and generators for working with themes on the Workarea Commerce Platform'
