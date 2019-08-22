@@ -17,6 +17,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'workarea', '~> 3.x'
   s.add_dependency 'workarea-blog', '>= 3.2.0'
-  s.add_dependency 'workarea-clothing'
   s.add_dependency 'workarea-theme'
 end

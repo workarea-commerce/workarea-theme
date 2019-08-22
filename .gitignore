@@ -22,3 +22,4 @@ engines/workarea-bogus-theme/test/dummy/db/*.sqlite3-journal
 engines/workarea-bogus-theme/test/dummy/log/*.log
 engines/workarea-bogus-theme/test/dummy/tmp/
 engines/workarea-bogus-theme/test/dummy/.sass-cache
+app

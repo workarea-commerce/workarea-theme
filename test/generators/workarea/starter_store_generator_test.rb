@@ -71,7 +71,6 @@ module Workarea
         run_generator
 
         assert_file 'Gemfile' do |gemfile|
-          assert_match("gem 'workarea-clothing'", gemfile)
           assert_match("gem 'workarea-blog', '>= 3.2.0'", gemfile)
         end
       end
