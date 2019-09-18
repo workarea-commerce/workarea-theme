@@ -23,3 +23,4 @@ engines/workarea-bogus-theme/test/dummy/log/*.log
 engines/workarea-bogus-theme/test/dummy/tmp/
 engines/workarea-bogus-theme/test/dummy/.sass-cache
 app
+.rubocop-http*
