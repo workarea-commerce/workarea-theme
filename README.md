@@ -1,8 +1,10 @@
-# Workarea Theme
+Workarea Theme
+================================================================================
 
 This plugins provides infrastructure for theme development and use on the Workarea platform.
 
-## Workarea Themes
+Workarea Themes
+--------------------------------------------------------------------------------
 
 A Workarea theme is a specialized type of Workarea plugin.
 Themes specifically customize the appearance of the Workarea platform.
@@ -11,7 +13,8 @@ for an implementation.
 A theme may be used as a starting point for front-end development, or as a
 complete storefront UI.
 
-## Installing a theme in a Workarea application
+Installing a theme in a Workarea application
+--------------------------------------------------------------------------------
 
 Installing a theme in a Workarea application is like installing any other plugin.
 Add the theme's gem to your application's gemfile:
@@ -27,7 +30,8 @@ Then run `bundle install` and restart your application.
 Some themes may need extra configuration. Check the README.md for the theme you
 are using to see if any further configuration is necessary.
 
-## Configuring a theme
+Configuring a theme
+--------------------------------------------------------------------------------
 
 All themes include a `config/initializer/theme.rb` file, which provides options
 for configuration within the Workarea application.
@@ -54,7 +58,8 @@ config.theme = {
 end
 ```
 
-## Approaches to using a theme
+Approaches to using a theme
+--------------------------------------------------------------------------------
 
 There are 2 ways to use a Workarea theme.
 
@@ -115,7 +120,8 @@ update your host application where appropriate to include these appended files
 as normal, removing them from appends.rb. This is especially advisable for Sass
 and JS assets which can easily be added to your application manifests.
 
-## Upgrading a themed application
+Upgrading a themed application
+--------------------------------------------------------------------------------
 
 If you have installed your theme using the `starter_store` generator the upgrade
 path is the same as any other application. Be sure to use the [Workarea upgrade tool](https://stash.tools.weblinc.com/projects/WL/repos/workarea-upgrade/browse) when
@@ -139,7 +145,8 @@ Once all necessary changes highlighted in the diff have been made, tests are
 passing, and your PR has been accepted, your application is upgraded and should
 be sent to QA for testing. Drink a beer, you've earned it!
 
-## Multisite support for themes
+Multisite support for themes
+--------------------------------------------------------------------------------
 
 Multisite applications are able to use Workarea themes without many changes to
 the normal multi-site development workflow.
@@ -155,7 +162,8 @@ must be based on the same theme, but each can customize away from the theme as n
 Follow the [instructions for working with multi-site applications](https://stash.tools.weblinc.com/projects/WL/repos/workarea-multi-site/browse)
 for more information about developing multi-site applications.
 
-## Developing a new Workarea Theme
+Developing a new Workarea Theme
+--------------------------------------------------------------------------------
 
 To create a Workarea theme use the _rails plugin new_ command with the Workarea
 theme template. Follow the instructions for using the [app template](https://developer.workarea.com/workarea-3/guides/app-template),
@@ -308,8 +316,12 @@ To upgrade your theme follow these steps:
 Good work soldier! Your Workarea theme is up-to-date. Once your PR is approved,
 and changes pass QA you can release your theme's new minor version to the gem server.
 
-## Copyright & Licensing
+Workarea Commerce Documentation
+--------------------------------------------------------------------------------
 
-Copyright WebLinc 2018. All rights reserved.
+See [https://developer.workarea.com](https://developer.workarea.com) for Workarea Commerce documentation.
 
-For licensing, contact sales@workarea.com.
+License
+--------------------------------------------------------------------------------
+
+Workarea Theme is released under the [Business Software License](LICENSE)
