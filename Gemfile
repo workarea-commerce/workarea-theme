@@ -13,7 +13,7 @@ gemspec
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 
-gem 'workarea', github: 'workarea-commerce/workarea'
+gem 'workarea', github: 'workarea-commerce/workarea', branch: 'v3.5-stable'
 
 group :test do
   gem 'workarea-bogus_theme', '~> 0.1.0', path: 'engines/workarea-bogus-theme', require: 'workarea/bogus_theme'
